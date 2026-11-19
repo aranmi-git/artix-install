@@ -1,0 +1,38 @@
+# artix-install preset v1
+# name: gaming-kde-openrc
+# id: gaming-kde-openrc@1c94577411a0d1c1
+# Made by artix-install.sh 1.0 on 2026-11-18.
+# Load it with:  bash artix-install.sh --preset <this file, an https link or a name>
+# Disk, passwords and users are never stored here; the installer asks for them.
+INIT=openrc
+FS=ext4
+ENC=luks2
+GRUB_BOOT=encrypted
+BOOTLOADER=grub
+SECUREBOOT=0
+SNAPPER=0
+SWAP=zram
+SWAP_SIZE=4
+KERNELS=linux-zen linux-lts
+MIRROR=auto
+ARCH_REPOS=1
+HOST_NAME=artix
+KEYMAP=us
+LOCALE=en_US.UTF-8
+TIMEZONE=UTC
+NET=nm
+DESKTOP=plasma
+DM=sddm
+DOTS=
+GPU=auto
+APPS=firefox discord git
+GAMING=steam wine lutris gamemode
+PERIPH=controllers
+EXTRA_PKGS=
+AUR_HELPER=yay
+AUR_PKGS=
+BS_PROGS=
+BS_DOTFILES=
+BS_BRANCH=
+BS_SHELL=bash
+BS_POWER=0

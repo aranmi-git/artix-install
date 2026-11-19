@@ -1,0 +1,38 @@
+# artix-install preset v1
+# name: hyprland-dinit
+# id: hyprland-dinit@4a52f925de2b96b7
+# Made by artix-install.sh 1.0 on 2026-11-18.
+# Load it with:  bash artix-install.sh --preset <this file, an https link or a name>
+# Disk, passwords and users are never stored here; the installer asks for them.
+INIT=dinit
+FS=btrfs
+ENC=luks2
+GRUB_BOOT=encrypted
+BOOTLOADER=grub
+SECUREBOOT=0
+SNAPPER=1
+SWAP=zram
+SWAP_SIZE=4
+KERNELS=linux linux-lts
+MIRROR=auto
+ARCH_REPOS=0
+HOST_NAME=artix
+KEYMAP=us
+LOCALE=en_US.UTF-8
+TIMEZONE=UTC
+NET=nm
+DESKTOP=hyprland
+DM=auto
+DOTS=cachyos-hyprland
+GPU=auto
+APPS=firefox git
+GAMING=
+PERIPH=
+EXTRA_PKGS=
+AUR_HELPER=yay
+AUR_PKGS=
+BS_PROGS=
+BS_DOTFILES=
+BS_BRANCH=
+BS_SHELL=bash
+BS_POWER=0

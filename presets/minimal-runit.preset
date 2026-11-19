@@ -1,0 +1,38 @@
+# artix-install preset v1
+# name: minimal-runit
+# id: minimal-runit@ac5c96095f9c3190
+# Made by artix-install.sh 1.0 on 2026-11-18.
+# Load it with:  bash artix-install.sh --preset <this file, an https link or a name>
+# Disk, passwords and users are never stored here; the installer asks for them.
+INIT=runit
+FS=ext4
+ENC=luks2
+GRUB_BOOT=encrypted
+BOOTLOADER=grub
+SECUREBOOT=0
+SNAPPER=0
+SWAP=zram
+SWAP_SIZE=4
+KERNELS=linux-lts linux
+MIRROR=auto
+ARCH_REPOS=0
+HOST_NAME=artix
+KEYMAP=us
+LOCALE=en_US.UTF-8
+TIMEZONE=UTC
+NET=dhcpcd
+DESKTOP=none
+DM=auto
+DOTS=
+GPU=auto
+APPS=openssh git
+GAMING=
+PERIPH=
+EXTRA_PKGS=
+AUR_HELPER=none
+AUR_PKGS=
+BS_PROGS=
+BS_DOTFILES=
+BS_BRANCH=
+BS_SHELL=bash
+BS_POWER=0
